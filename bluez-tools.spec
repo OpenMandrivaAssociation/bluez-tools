@@ -5,11 +5,12 @@
 Name:           %{name}
 Summary:        Command line tools for bluez (bluetooth stack for Linux)
 Version:        %{version}
-Release:        %mkrel -c %rev 1 
+Release:        %mkrel -c %rev 2 
 Source0:        %{name}-%{version}-%{rev}.tar.gz
 URL:            http://code.google.com/p/bluez-tools
 License:	GPLv2
 Group:          System/Kernel and hardware
+Requires:	dbus >= 1.2.16
 Requires:	bluez >= 4.69
 Requires:	obexd >= 0.30
 BuildRoot:      %{_tmppath}/%{name}-%{version}
