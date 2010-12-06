@@ -12,9 +12,9 @@ License:	GPLv2
 Group:          System/Kernel and hardware
 Requires:	bluez >= 4.69
 Requires:	obexd >= 0.30
-BuildRequires:	dbus >= 1.2.16
-BuildRequires:	%mklibname dbus- 1 3
-BuildRequires:	%mklibname dbus-glib- 1 2
+BuildRequires:	dbus 
+BuildRequires:	libdbus
+BuildRequires:	dbus-glib
 BuildRoot:      %{_tmppath}/%{name}-%{version}
 
 %description
