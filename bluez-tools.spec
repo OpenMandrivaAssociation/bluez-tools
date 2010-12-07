@@ -16,6 +16,8 @@ BuildRequires:	dbus
 BuildRequires:	dbus-devel
 BuildRequires:  dbus-glib
 BuildRequires:	dbus-glib-devel
+BuildRequires:	readline
+BuildRequires:	readline-devel
 BuildRoot:      %{_tmppath}/%{name}-%{version}
 
 %description
