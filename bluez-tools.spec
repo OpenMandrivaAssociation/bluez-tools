@@ -13,10 +13,8 @@ Group:          System/Kernel and hardware
 Requires:	bluez >= 4.69
 Requires:	obexd >= 0.30
 BuildRequires:	dbus
+BuildRequires:  dbus-glib
 BuildRequires:	libdbus-1_3
-BuildRequires:	libdbus-1-devel
-BuildRequires:	libdbus-glib-1_2
-BuildRequires:	libdbus-glib-1_2-devel
 BuildRoot:      %{_tmppath}/%{name}-%{version}
 
 %description
