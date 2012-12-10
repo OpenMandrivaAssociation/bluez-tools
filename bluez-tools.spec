@@ -53,3 +53,17 @@ rm -rf %{buildroot}
 %{_mandir}/man1/bt-obex.1*
 %{_mandir}/man1/bt-serial.1*
 
+
+
+%changelog
+* Tue Dec 07 2010 Yuri Myasoedov <omerta13@mandriva.org> 0.1.38-0.662e.2mdv2011.0
++ Revision: 614452
+- Added readline & readline-devel as BuildRequires
+- Fixed BuildRequires section
+- Fixed BuildRequires
+- Fixed BuildRequires section once again
+- Fixed BuildRequire section
+- Fixed BuildRequires
+- Fixed dbus requirement
+- import bluez-tools
+
