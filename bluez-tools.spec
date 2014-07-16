@@ -1,5 +1,3 @@
-%define name    bluez-tools
-%define version 0.1.38
 %define rev	662e
 
 Name:			bluez-tools
