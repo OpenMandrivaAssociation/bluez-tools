@@ -5,7 +5,7 @@ Summary:		Command line tools for bluez (bluetooth stack for Linux)
 Version:		0.1.38
 Release:		0.%{rev}.3
 Source0:		%{name}-%{version}-%{rev}.tar.gz
-URL:			http://code.google.com/p/bluez-tools
+URL:			https://code.google.com/p/bluez-tools
 License:		GPLv2
 Group:			System/Kernel and hardware
 Requires:		bluez >= 4.69
