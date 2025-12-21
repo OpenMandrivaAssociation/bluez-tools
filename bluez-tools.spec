@@ -10,6 +10,11 @@ License:		GPLv2
 Group:			System/Kernel and hardware
 Requires:		bluez >= 4.69
 Requires:		obexd >= 0.30
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	pkgconfig(dbus-1)
 BuildRequires:	pkgconfig(dbus-glib-1)
 BuildRequires:	readline-devel
